@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--// GPS, LIGHT, PROX, ACLR, SOUND, WIFI, PHONE-->
+
+    <CheckBoxPreference
+        android:id="@+id/preference_gps_checkbox"
+        android:key="preference_gps_checkbox"
+        android:title="GPS recording"
+        android:summary="Enable GPS tracking" />
+    <ListPreference
+        android:key="preference_gps_sampling_rate"
+        android:entries="@array/gps_sampling_entries"
+        android:entryValues="@array/gps_sampling_values"
+        android:title="Frequency of location updates"
+        android:dependency="preference_gps_checkbox"
+        android:summary="Frequency of location updates" />
+
+    <CheckBoxPreference
+        android:id="@+id/preference_light_checkbox"
+        android:key="preference_light_checkbox"
+        android:title="Light level recording"
+        android:summary="Enable light collecting" />
+    <ListPreference
+        android:key="preference_light_sampling_rate"
+        android:entries="@array/light_sampling_entries"
+        android:entryValues="@array/light_sampling_values"
+        android:title="Frequency of light updates"
+        android:dependency="preference_light_checkbox"
+        android:summary="Frequency of light updates" />
+
+    <CheckBoxPreference
+        android:id="@+id/preference_prox_checkbox"
+        android:key="preference_prox_checkbox"
+        android:title="Proximity level recording"
+        android:summary="Enable proximity monitoring" />
+    <ListPreference
+        android:key="preference_prox_sampling_rate"
+        android:entries="@array/light_sampling_entries"
+        android:entryValues="@array/light_sampling_values"
+        android:title="Frequency of proximity updates"
+        android:dependency="preference_prox_checkbox"
+        android:summary="Frequency of proximity updates" />
+
+    <CheckBoxPreference
+        android:id="@+id/preference_aclr_checkbox"
+        android:key="preference_aclr_checkbox"
+        android:title="Acceleration level recording"
+        android:summary="Enable acceleration monitoring" />
+    <ListPreference
+        android:key="preference_aclr_sampling_rate"
+        android:entries="@array/light_sampling_entries"
+        android:entryValues="@array/light_sampling_values"
+        android:title="Frequency of acceleration updates"
+        android:dependency="preference_aclr_checkbox"
+        android:summary="Frequency of acceleration updates" />
+
+</PreferenceScreen>

@@ -1,0 +1,233 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:2:1-55:12
+	package
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:4:5-41
+		INJECTED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml
+		INJECTED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml
+		INJECTED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml
+		INJECTED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.0.1] C:\Users\807admin\.android\build-cache\052b323232825b9a98bc310b08bf81ef3889e424\output\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.0.1] C:\Users\807admin\.android\build-cache\052b323232825b9a98bc310b08bf81ef3889e424\output\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:11:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:12:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:14:22-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:15:22-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:16:22-65
+application
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:19:5-53:19
+MERGED from [com.android.support:design:23.4.0] C:\Users\807admin\.android\build-cache\07fd727951d832f4e6d9a5d42cbc7fe7013beabe\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:9.0.1] C:\Users\807admin\.android\build-cache\2a0c8aaa47e9e16a23eacc7c4be3b7a219b41df5\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.0.1] C:\Users\807admin\.android\build-cache\052b323232825b9a98bc310b08bf81ef3889e424\output\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-base:9.0.1] C:\Users\807admin\.android\build-cache\ad10c7d66a66d103198af7a889476689d15d173c\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-common:9.0.1] C:\Users\807admin\.android\build-cache\f21c19f521e161c245243491e8eb6fdbc9974697\output\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.0.1] C:\Users\807admin\.android\build-cache\ea690f0c01db43e8363918dba422708c392b1aaf\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\807admin\.android\build-cache\adf430f5e4febadfbb9a8a20ae0643db280b295e\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.github.Triggertrap:SeekArc:v1.1] C:\Users\807admin\.android\build-cache\711ce1eec9fbaf7ec9adb2e01a64811b135f311c\output\AndroidManifest.xml:34:5-38:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\807admin\.android\build-cache\d44fb095edfdac684c69bc1247b386d090721cc6\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\807admin\.android\build-cache\3846f595c95a0362765679736289a8c6bede66d3\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\807admin\.android\build-cache\8a92f8038575779bfedb568a76a6d75299e2e17f\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\807admin\.android\build-cache\8ad92d9626690f581470f9c51e1aaae0c9e9ae7f\output\AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:28:5-57:19
+	android:label
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:23:9-41
+	android:supportsRtl
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:24:9-35
+	android:allowBackup
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:21:9-35
+	android:icon
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:22:9-43
+		REJECTED from [com.github.Triggertrap:SeekArc:v1.1] C:\Users\807admin\.android\build-cache\711ce1eec9fbaf7ec9adb2e01a64811b135f311c\output\AndroidManifest.xml:36:9-45
+	android:theme
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:25:9-40
+	tools:replace
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:20:9-51
+activity#edu.tamu.geoinnovation.fpx.Activities.MainActivity
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:26:9-32:20
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:26:19-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:30:27-74
+activity#edu.tamu.geoinnovation.fpx.Activities.LoginActivity
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:33:9-35:20
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:33:19-59
+activity#edu.tamu.geoinnovation.fpx.Preferences.SettingsActivity
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:37:9-38:20
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:37:19-63
+activity#edu.tamu.geoinnovation.fpx.Preferences.SettingsActivityV2
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:39:9-40:20
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:39:19-65
+receiver#edu.tamu.geoinnovation.fpx.Utils.NetConManager
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:42:9-46:20
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:42:19-54
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:43:13-45:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:44:17-79
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:44:25-76
+service#edu.tamu.geoinnovation.fpx.Activities.PebbleService
+ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:48:9-50:40
+	android:exported
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml:49:13-53
+uses-sdk
+INJECTED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:23.4.0] C:\Users\807admin\.android\build-cache\07fd727951d832f4e6d9a5d42cbc7fe7013beabe\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\807admin\.android\build-cache\0a6cc914a53ce73193c29b6413f04cbda1efc25f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:9.0.1] C:\Users\807admin\.android\build-cache\2a0c8aaa47e9e16a23eacc7c4be3b7a219b41df5\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.0.1] C:\Users\807admin\.android\build-cache\052b323232825b9a98bc310b08bf81ef3889e424\output\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.1] C:\Users\807admin\.android\build-cache\ad10c7d66a66d103198af7a889476689d15d173c\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.0.1] C:\Users\807admin\.android\build-cache\f21c19f521e161c245243491e8eb6fdbc9974697\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.1] C:\Users\807admin\.android\build-cache\ea690f0c01db43e8363918dba422708c392b1aaf\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\807admin\.android\build-cache\adf430f5e4febadfbb9a8a20ae0643db280b295e\output\AndroidManifest.xml:18:5-42
+MERGED from [com.github.Triggertrap:SeekArc:v1.1] C:\Users\807admin\.android\build-cache\711ce1eec9fbaf7ec9adb2e01a64811b135f311c\output\AndroidManifest.xml:30:5-32:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\807admin\.android\build-cache\d44fb095edfdac684c69bc1247b386d090721cc6\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\807admin\.android\build-cache\3846f595c95a0362765679736289a8c6bede66d3\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\807admin\.android\build-cache\8a92f8038575779bfedb568a76a6d75299e2e17f\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\807admin\.android\build-cache\8ad92d9626690f581470f9c51e1aaae0c9e9ae7f\output\AndroidManifest.xml:20:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\807admin\.android\build-cache\ef39cfc8c7afc9c35b7b7c01fa0d3d0f6428f272\output\AndroidManifest.xml:19:5-43
+MERGED from [com.getpebble:pebblekit:3.1.0] C:\Users\807admin\.android\build-cache\d75ef7911ac25ce641ded2e07f414bd035fa7024\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\807admin\.android\build-cache\d44fb095edfdac684c69bc1247b386d090721cc6\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml
+		INJECTED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml
+		INJECTED from C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.0.1] C:\Users\807admin\.android\build-cache\052b323232825b9a98bc310b08bf81ef3889e424\output\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.0.1] C:\Users\807admin\.android\build-cache\052b323232825b9a98bc310b08bf81ef3889e424\output\AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.0.1] C:\Users\807admin\.android\build-cache\052b323232825b9a98bc310b08bf81ef3889e424\output\AndroidManifest.xml:24:8-31
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.0.1] C:\Users\807admin\.android\build-cache\ad10c7d66a66d103198af7a889476689d15d173c\output\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.0.1] C:\Users\807admin\.android\build-cache\ad10c7d66a66d103198af7a889476689d15d173c\output\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.0.1] C:\Users\807admin\.android\build-cache\ad10c7d66a66d103198af7a889476689d15d173c\output\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.0.1] C:\Users\807admin\.android\build-cache\ad10c7d66a66d103198af7a889476689d15d173c\output\AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\807admin\.android\build-cache\f21c19f521e161c245243491e8eb6fdbc9974697\output\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\807admin\.android\build-cache\f21c19f521e161c245243491e8eb6fdbc9974697\output\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\807admin\.android\build-cache\f21c19f521e161c245243491e8eb6fdbc9974697\output\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\807admin\.android\build-cache\f21c19f521e161c245243491e8eb6fdbc9974697\output\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.0.1] C:\Users\807admin\.android\build-cache\f21c19f521e161c245243491e8eb6fdbc9974697\output\AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\807admin\.android\build-cache\adf430f5e4febadfbb9a8a20ae0643db280b295e\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\807admin\.android\build-cache\adf430f5e4febadfbb9a8a20ae0643db280b295e\output\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\807admin\.android\build-cache\adf430f5e4febadfbb9a8a20ae0643db280b295e\output\AndroidManifest.xml:22:13-58
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:29:9-32:45
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:31:13-36
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:32:13-42
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:30:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:33:9-35:39
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:34:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:37:9-49:20
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:39:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:41:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:40:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:43:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:42:13-59
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:38:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:50:9-56:68
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:52:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:54:13-82
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:53:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:56:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:55:13-59
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] C:\Users\807admin\.android\build-cache\6c293330a7d14e429124fcef84d075947d18ff54\output\AndroidManifest.xml:51:13-93

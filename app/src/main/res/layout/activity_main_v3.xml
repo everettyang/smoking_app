@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:seekarc="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar_main_activity"
+        layout="@layout/toolbar" />
+
+
+
+    <ProgressBar
+        android:layout_below="@id/toolbar_main_activity"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/activity_main_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-7dp"
+        android:backgroundTintMode="src_in"
+        android:indeterminate="true"
+        android:indeterminateTint="#f00" />
+
+    <LinearLayout
+        android:id="@+id/spinner_layout_app"
+        android:paddingTop="16dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_below="@id/toolbar_main_activity"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/app_textview"
+            android:text="App: "
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinner_app"
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/spinner_layout"
+        android:paddingTop="16dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_below="@id/spinner_layout_app"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/activity_textview"
+            android:text="Activity: "
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+        </Spinner>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/pebble_layout"
+        android:orientation="horizontal"
+        android:layout_marginTop="28dp"
+        android:paddingLeft="12dp"
+        android:layout_below="@id/spinner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/checkbox_mccheckbox"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:text="Use Pebble app"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/text_layout"
+        android:orientation="vertical"
+        android:layout_marginTop="28dp"
+        android:paddingLeft="12dp"
+        android:layout_below="@id/pebble_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:text="Report crashes to atharmon@tamu.edu"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="12dp" ></View>
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:text="If the app crashes or Pebble connection loss, make sure to exit the Pebble app as well or it won't send data."
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/other_edittext"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:hint="Name of activity"
+        android:visibility="visible"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

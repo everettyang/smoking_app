@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="pink">#FF4081</color>
+    <color name="seafoam">#40ffbe</color>
+    <color name="orange">#ff5f40</color>
+    <color name="yellow">#ffbf40</color>
+    <color name="blue">#40e1ff</color>
+    <color name="red">#ff4052</color>
+    <color name="salmon">#ff6767</color>
+    <color name="green">#0dff5c</color>
+    <color name="transparentWhite">#d9f0f0f0</color>
+</resources>

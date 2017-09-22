@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:seekarc="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar_main_activity"
+        layout="@layout/toolbar" />
+
+    <ProgressBar
+        android:layout_below="@id/toolbar_main_activity"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/activity_main_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-7dp"
+        android:backgroundTintMode="src_in"
+        android:indeterminate="true"
+        android:indeterminateTint="#f00" />
+
+    <ImageView
+        android:id="@+id/imageview_main"
+        android:layout_below="@id/activity_main_progressbar"
+        android:padding="24dp"
+        android:src="@drawable/gavle_goat_bw_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <com.triggertrap.seekarc.SeekArc
+        android:id="@+id/seekArc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="30dp"
+        seekarc:rotation="180"
+        seekarc:startAngle="30"
+        seekarc:sweepAngle="300"
+        seekarc:progress="2"
+        seekarc:arcColor="@android:color/darker_gray"
+
+        seekarc:arcWidth="4dp"
+        seekarc:progressWidth="4dp"
+        seekarc:roundEdges="true"
+        seekarc:max="30"
+        seekarc:touchInside="true" />
+
+    <TextView
+        android:id="@+id/frequency_value"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="2 seconds"
+        android:textColor="@color/salmon"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/frequency_ll"-->
+        <!--android:padding="24dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+            <!--android:text="Freq: "-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/frequency_textview_value"-->
+            <!--android:text="15s"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+    <!--</LinearLayout>-->
+
+
+
+</RelativeLayout>

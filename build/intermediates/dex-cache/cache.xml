@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5a0078915dd3028f1c4033895dade19aa5f28603">
+        <dex dex="C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_268952e8291d5e984b1fba625de848c1c77f6323\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e500b6c30a1d5b0d42f3d9024c7312a95a7b6056\classes.dex" />
+    </item>
+
+</items>
