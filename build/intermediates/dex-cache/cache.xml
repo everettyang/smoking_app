@@ -2,22 +2,256 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\b15232d415ed7595c66b473db3b79d98fef2a54a\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="5a0078915dd3028f1c4033895dade19aa5f28603">
-        <dex dex="C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_268952e8291d5e984b1fba625de848c1c77f6323\classes.dex" />
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_56fa3db6f166fb6c45e4cb2655bac82374001fc7.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\blue\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.1\1b1c911686eb40179219466e6a59b634b9d7a748\reactive-streams-1.0.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\DevSource\Tamu\GeoInnovation\android.fpx.tamu.edu\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e500b6c30a1d5b0d42f3d9024c7312a95a7b6056\classes.dex" />
+        sha1="1b1c911686eb40179219466e6a59b634b9d7a748">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\reactive-streams-1.0.1_d0e17422e7083bd8d0185a154aec09a9a360a8b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\68dc0a252c288ce368760376f1f7d105ef86d741\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_067274c00da003b3c97029cbc7fc991193b6cbc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\c38770970e5a92e6bed26f755b9278887ec46412\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_d828948b1da8c2f8d3a1c1635b9037eaa73107e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\14aa7d2da72ac3b27678aef95315da04cf638fc7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_83689886cc9b9f6207d28c4eec149760e3a3a174.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.9.0\1b6c10b5120995a7542c1a31b7828fb8593c8ba\okhttp-3.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="01b6c10b5120995a7542c1a31b7828fb8593c8ba">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\okhttp-3.9.0_0464d2233603b50bb3fb2a5be5ec28c481f0489c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\2ee73bc275acba7fe7a9d99ac45487ff5a112a57\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_d3d7eeb193e9ee9c90d9417e1d96347dedea7df5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\a78c6480eeebe94f251388f9a4c8c8bac6ed1035\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_cdad86bac7f28493633f86193c01b965d466c793.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\retrofit-2.3.0_38b8a9144a7d7542935ae5dc12bd99ecc4b0c64e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\ee7931b80182e64ca6633c59850927999f7943f4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_a1e923535e30fb378abd7a376457f2d57d958cd6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\okio-1.13.0_8e19a8879e1bc987836b6c7170fd1e4a51b742b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\a992686d6f2215453a196478f22feb9a25d0530e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d45b277afdf55bcfdc005c03c0c2f1733aaa1b0">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_0d1fcb80ddd545518e8e57a425cdcf746d1a1130.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_654951c999a3dbbb90152834adbbda5a2d0d845f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\3ac62b13575a99a6a78ccbc5eecaec79783ff8a5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a27730e533d9eb335b5de89e91eb6587add7cf3">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_17637502558c7b9a27003bf93f4d430a36eb85ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\c22e70cb330657db85d216432d38e8b1e45e54d3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8040d53ecd4bd895360eafdc25e1c1cc9479e6aa">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_777bacae2b3f743a63b49c700ac7fd9c5339b48e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\5431d8883f9e69f86b0d1bf0f87d4be4abde17c0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_af45e5772302bf07cf0e83d8f21e4ddc2f2395fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\d1272c8d48eebf20d51eb3b26cb3cbc8b43c2290\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_b2774195340febe211039e6df8d387a0dcf2e244.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\14fdfac56b4e9639b828a16fdccfdfc00098beaa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_2fdb95448824c3c9702a63ca95c392651cd156e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.1\b494968f6050d494de55dc3ce005e59c7eb40012\rxjava-1.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b494968f6050d494de55dc3ce005e59c7eb40012">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\rxjava-1.1.1_ccc9866dae9c8126bcae2aaf828cd39c6447e0d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\gson-2.6.1_f6dc2409ddbef52e80e20e8bba3b29f973ac7894.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\b2b369e3454ebb829b643847575a8daa93c6247a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_19fbabe49763a7928a1d2e1fda8d05cd41208cc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.0\bf61256d9868ea053e24d77669c55c80db375c15\adapter-rxjava-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf61256d9868ea053e24d77669c55c80db375c15">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.0.0_14a234efc9a23c200badfc911c6bd1d8b2ded785.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.1.5\1de589f16cd088be91ca6877cb836529276a6bb2\rxjava-2.1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1de589f16cd088be91ca6877cb836529276a6bb2">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\rxjava-2.1.5_9790d240bfaed268ce368699581746c1544745a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\796a5b317958413245262bba77e707c1ea969585\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_c35013dbbbf09877ad7ffcc98d0d79dfe5b03f6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0\49eb3ad545e7701234e4dd83db8dc1344b577f23\converter-gson-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="49eb3ad545e7701234e4dd83db8dc1344b577f23">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\converter-gson-2.0.0_056a2ff9fc3c7e4e36456284a811e5a4f1325a05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\ee6c4af4f36e4e8e22ddd3002c0ed6a13ffde67f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="643a2fd3bd06c44be5d20efc0ba4ca02036d2c8a">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_92f8eca533170a0505e575ab5eacf1d66b87ced9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\23d4aab1ae68308ed8588a2c8f912405b87f8cdf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="667c7c266ee94f433de491ca8fd5a2090d152ca5">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_b6ef7f39055b85da8f67755b12eb8be2d8485706.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\blue\.android\build-cache\d4a423ad8391a36cb371eda3ac71537d20089300\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a5423d080755901cc399daa76490ee65820e75fb">
+        <dex dex="D:\My Documents\Stuff\Android\smoking_app\app\build\intermediates\pre-dexed\debug\classes_c86d8a3aa2614b9f4723fc749a0f31e7e6605468.jar" />
     </item>
 
 </items>
