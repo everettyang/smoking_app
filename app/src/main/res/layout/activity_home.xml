@@ -4,42 +4,108 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/start_stop"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Data Collection Start" />
-
     <Spinner
         android:id="@+id/user_id"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
 
     <TextView
         android:id="@+id/pebble_start"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
         android:gravity="center"
-        android:text="Pebble starting on which hand?" />
+        android:text="Pebble starting on which hand?"
+        android:layout_marginTop="16dp"
+        android:textSize="14dp"
+        android:textColor="#333333"/>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:text="Left"
+            android:onClick="onLeftClicked"
+            android:background="@drawable/button_bg_unselected"
+            android:layout_marginRight="2dp"/>
+
+        <Button
+            android:id="@+id/right"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="Right"
+            android:background="@drawable/button_bg_selected"
+            android:layout_marginLeft="2dp"
+            android:onClick="onRightClicked"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pebble_equipped"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Cigarette is currently in Pebble-equipped hand?"
+        android:textColor="#333333"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/no"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_bg_unselected"
+            android:text="No"
+            android:onClick="onNoClicked"/>
+
+        <Button
+            android:id="@+id/yes"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_bg_selected"
+            android:text="Yes"
+            android:onClick="onYesClicked"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="0.09"
+        android:text="Start Data Collection"
+        android:onClick="startDataCollection"/>
 
     <LinearLayout
         android:layout_height="wrap_content"
         android:layout_width="0dp"
         android:layout_weight="1"
         android:orientation="vertical" >
-
-        <Button
-            android:id="@+id/left_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Left" />
-
-        <Button
-            android:id="@+id/right_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Right" />
 
     </LinearLayout>
 </LinearLayout>

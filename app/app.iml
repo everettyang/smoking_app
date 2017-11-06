@@ -106,9 +106,11 @@
     <orderEntry type="library" exported="" name="gson-2.6.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-base-11.4.2" level="project" />
     <orderEntry type="library" exported="" name="transition-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="constraint-layout-solver-1.0.0-alpha8" level="project" />
     <orderEntry type="library" exported="" name="design-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="support-core-ui-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-base-license-11.4.2" level="project" />
+    <orderEntry type="library" exported="" name="constraint-layout-1.0.0-alpha8" level="project" />
     <orderEntry type="library" exported="" name="play-services-basement-11.4.2" level="project" />
     <orderEntry type="library" exported="" name="rxjava-2.1.5" level="project" />
     <orderEntry type="library" exported="" name="support-core-utils-25.3.1" level="project" />
